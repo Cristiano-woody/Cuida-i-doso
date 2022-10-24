@@ -1,0 +1,99 @@
+header {
+    width: 100;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    height: 11vh;
+}
+
+
+
+#logo {
+    position:absolute;
+    top: 19px;
+    left: 28px;
+    height: 33px;
+}   
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 70%;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    height: 87vh;
+}
+
+
+#imagem {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+
+}
+
+#img {
+    height: 87vh;
+    width: 100%;
+    clip-path: circle(95% at right);
+}
+
+#titulo {
+    padding-bottom: 38px;
+    color: #3F619F;
+    font-size: 30px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.formulario {
+    color: #3F619F;
+    font-size: 16px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.input {
+    border-radius: 7px;
+    border: 0.4px solid rgba(0, 0, 0, 0.158);
+    height: 30px;
+    width: 280px;
+}
+
+#recuperar {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 13px;
+    color: rgb(100, 99, 99);
+    cursor: pointer;
+
+}
+
+#botao {
+    background-color: #5992FF;
+    border: 0.0px;
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+.botao:hover{
+
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    color: black;
+    transition: 2s !important;
+    transform: scale(1.08);
+}
