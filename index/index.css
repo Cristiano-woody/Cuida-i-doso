@@ -9,6 +9,8 @@ header{
     position: absolute;
     top: 19px;
     left: 30px;
+    height: 32px;
+    width: 240;
 }
 
 #sm{
@@ -33,11 +35,11 @@ header{
     border-radius: 20px;
     opacity: 80%; 
 }
-
-main{
-    background-image: url(../assets/fundoindex.png) ;
-    height: 88.5vh;
-
+#background{
+    width: 1366px;
+    height: 88.1vh;
+    left: 0px;
+    top: 70px;
 }
 
 h1{
@@ -120,5 +122,4 @@ button:hover {
     transform: scale(1.08) ;
 
 }
-
 

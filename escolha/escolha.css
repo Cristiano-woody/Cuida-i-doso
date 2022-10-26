@@ -20,6 +20,8 @@ header{
     position: absolute;
     top: 19px;
     left: 30px;
+    height: 32px;
+    width: 240;
 }
 
 
@@ -30,7 +32,7 @@ header{
     width: 419px;
     height: 92px;
     left: 147px;
-    top: 115px;
+    top: 100px;
     
     font-family: 'League Spartan', sans-serif;
     font-style: normal;
@@ -44,26 +46,26 @@ header{
 
 #titulo2{
     position: absolute;
-width: 447px;
-height: 29px;
-left: 139px;
-top: 475px;
+    width: 447px;
+    height: 29px;
+    left: 139px;
+    top: 440px;
 
-font-family: 'League Spartan', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 29px;
-text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
 
-color: #3F619F;
+    color: #3F619F;
 
 }
 
 #aside{
     position: absolute;
     width: 585.05px;
-    height: 578px;
+    height: 88.6vh;
     left: 780px;
     top: 70px;
 }
@@ -75,7 +77,7 @@ color: #3F619F;
     width: 206px;
     height: 51px;
     left: 250px;
-    top: 238px;
+    top: 220px;
     
     background: #5992FF;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
@@ -106,7 +108,7 @@ color: #ffffff;
     width: 206px;
     height: 51px;
     left: 250px;
-    top: 361px;
+    top: 330px;
     
     
 
@@ -144,7 +146,7 @@ position: absolute;
 width: 206px;
 height: 51px;
 left: 250px;
-top: 560px;
+top: 535px;
 
 background: #5992FF;
 box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
