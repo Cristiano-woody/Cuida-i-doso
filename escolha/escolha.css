@@ -17,15 +17,15 @@ header {
     position: absolute;
     width: 359px;
     height: 79px;
-    left: 152px;
+    left: 170px;
     top: 130px;
 
 }
 
 .titulo{
-    font-family: 'League Spartan';
+    font-family: 'League Spartan',sans-serif;
     font-style: normal;
-    font-size: 41px;
+    font-size: 39px;
     font-weight: 600;
     text-align: center;
     color: #3F619F;
@@ -43,10 +43,10 @@ header {
         width: 90px;
         border: 0;
 
-        width: 227px;
+        width: 257px;
         height: 58px;
         font-size: 40px;
-        font-family: 'League Spartan';
+        font-family: 'League Spartan',sans-serif;
         font-style: normal;
         color: #FFFFFF;
 
@@ -70,7 +70,7 @@ header {
         border-radius: 20px;
         box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
         
-        width: 227px;
+        width: 257px;
         height: 58px;
         font-size: 40px;
         font-style: normal;
@@ -78,7 +78,7 @@ header {
         line-height: 37px;
 
         text-align: center;
-        font-family: 'League Spartan';
+        font-family: 'League Spartan',sans-serif;
         color: #FFFFFF;
     }
 
