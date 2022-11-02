@@ -1,196 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    
-}
 
-header{
-    width: 1330px;
-    height: 11.2vh;
+header {
+    width: 100;
     background-color: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.158) ;
-    border: 1;
-    
-
-    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    height: 11vh;
 }
 
 #logo {
-    position: absolute;
+    position:absolute;
     top: 19px;
-    left: 30px;
-    height: 32px;
-    width: 240;
-}
+    left: 28px;
+    height: 33px;
+}  
 
-
-
-#titulo1{
+#titulo{
 
     position: absolute;
-    width: 419px;
-    height: 92px;
-    left: 147px;
-    top: 100px;
-    
-    font-family: 'League Spartan', sans-serif;
+    width: 359px;
+    height: 79px;
+    left: 152px;
+    top: 130px;
+
+}
+
+.titulo{
+    font-family: 'League Spartan';
     font-style: normal;
+    font-size: 41px;
     font-weight: 600;
-    font-size: 48px;
+    text-align: center;
+    color: #3F619F;
     line-height: 44px;
-    text-align: center;
+    }
+
+    #botao1{
+        position:absolute;
+        left:16%;
+        top:45%; 
+
+        background-color: #5992FF;
+        border-radius: 20px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
+        width: 90px;
+        border: 0;
+
+        width: 227px;
+        height: 58px;
+        font-size: 40px;
+        font-family: 'League Spartan';
+        font-style: normal;
+        color: #FFFFFF;
+
+        text-align: center;
+        font-weight: 700;
+
+        
+        
+
+
+    }
+
+    #botao2{
+        
+        position: absolute;
+        left: 16%;
+        top: 67%;
+
+        background-color: #5992FF;
+        border: 0;
+        border-radius: 20px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
+        
+        width: 227px;
+        height: 58px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+
+        text-align: center;
+        font-family: 'League Spartan';
+        color: #FFFFFF;
+    }
+
+    #container  {
+        
+        display: flex;
+        justify-content: space-between;
+        height: 88.5vh;
+    }
+
+
+
+ #imagem{
+    display: flex;
+    height: 88.5vh;   
+        
     
+ }
+
+#botao1:hover{
     color: #3F619F;
+    transition: color .4s;
+    cursor: pointer !important;
 }
 
-#titulo2{
-    position: absolute;
-    width: 447px;
-    height: 29px;
-    left: 139px;
-    top: 440px;
-
-    font-family: 'League Spartan', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 29px;
-    text-align: center;
+#botao2:hover{
 
     color: #3F619F;
-
+    transition: color .4s;
+    cursor: pointer !important;
 }
-
-#aside{
-    position: absolute;
-    width: 585.05px;
-    height: 88.6vh;
-    left: 780px;
-    top: 70px;
-}
-
-#botao1{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 206px;
-    height: 51px;
-    left: 250px;
-    top: 220px;
-    
-    background: #5992FF;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
-    border-radius: 20px;
-}
-
-#cliente{
-position: absolute;
-width: 123px;
-height: 37px;
-left: 45px;
-top: 8px;
-
-font-family: 'League Spartan', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 37px;
-/* identical to box height */
-
-text-align: center;
-
-color: #ffffff;
-}
-
-#botao2{
-    position: absolute;
-    width: 206px;
-    height: 51px;
-    left: 250px;
-    top: 330px;
-    
-    
-
-
-
-background: #5992FF;
-box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
-border-radius: 20px;
-}
-
-#funcionario{
-
-    position: absolute;
-    width: 270px;
-    height: 37px;
-    left: -30px;
-    top: 8px;
-
-    font-family: 'League Spartan', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 37px;
-/* identical to box height */
-
-text-align: center;
-
-color: #ffffff;
-}
-
-#botao3{
-    box-sizing: border-box;
-
-position: absolute;
-width: 206px;
-height: 51px;
-left: 250px;
-top: 535px;
-
-background: #5992FF;
-box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
-border-radius: 20px;
-
-}
-
-#cadastrar{
-
-    position: absolute;
-width: 143px;
-height: 29px;
-left: 35px;
-top: 10px;
-
-font-family: 'League Spartan', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 29px;
-text-align: center;
-
-color: #ffffff;
-}
-
-#cliente:hover {
-    color: #3F619F;
-        transition: color .4s;
-        cursor: pointer !important;
-
-}
-#funcionario:hover {
-    color: #3F619F;
-        transition: color .4s;
-        cursor: pointer !important;
-
-}
-#cadastrar:hover {
-    color: #3F619F;
-        transition: color .4s;
-        cursor: pointer !important;
-
-}
-
-
-
+ 
 
