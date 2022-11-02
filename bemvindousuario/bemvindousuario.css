@@ -1,0 +1,78 @@
+header{
+    width: 216vh;
+    height: 8vh;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+#logocuida {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 32px;
+    width: 240;
+}
+
+.navbotao{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #3F619F;
+
+    display: flex;
+    margin-top: 35px;
+
+}
+
+.linkicon{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#menulateral{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    
+
+    background-color: rgba(63, 97, 159, 0.2);
+    width: 27vh;
+    height: 92vh;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+}
+
+#imgbemvindo{
+    display: flex;
+    margin-left: 80px;
+    height: 92vh;
+    width: 150vh;
+    margin: none;
+}
+
+.navbotao::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+}
+
+.icons{
+    padding-top: 25px;
+}
+
+#imgbemvindo{
+    display: inline;
+    width: 1000px;
+    height: 575px;
+}
