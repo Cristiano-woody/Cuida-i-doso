@@ -1,0 +1,122 @@
+header{
+    width: 216vh;
+    height: 8vh;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.titulo{
+
+    position: absolute;
+    font-family: 'League Spartan', sans-serif;
+    color: #3F619F;
+    font-size: 24px;
+    left: 550px;
+    top: 105px;
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 37px;
+}
+
+#logocuida {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 32px;
+    width: 240;
+}
+
+.navbotao{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #3F619F;
+
+    display: flex;
+    margin-top: 35px;
+
+}
+
+.linkicon{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#menulateral{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    
+
+    background-color: rgba(63, 97, 159, 0.2);
+    width: 27vh;
+    height: 92vh;
+
+}
+
+.data{
+    position: absolute;
+    font-family: 'League Spartan', sans-serif;
+    color: #020202,;
+    font-size: 24px;
+    left: 390px;
+    top: 200px;
+   font-weight: 700;
+   
+    
+
+}
+#container{
+    background: rgba(63, 97, 159, 0.1);
+
+    position: absolute;
+    width: 60%;
+    height: 40%;
+    left: 390px;
+    top: 240px;
+
+}
+
+.descricao{
+    background: rgba(63, 97, 159, 0.1);
+    border: 0;
+    width: 98.5%;
+    height: 63%;
+    top:2%;
+}
+
+th{
+
+    font-family: 'League Spartan', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 22px;
+text-align: center;
+
+color: #214FA3;
+
+}
+    td, tr {
+        font-family: 'League Spartan', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 22px;
+text-align:start;
+
+color: #3F619F;
+
+        border: 1px solid;
+    }
+
+  
