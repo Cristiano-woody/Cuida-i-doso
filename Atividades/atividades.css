@@ -114,16 +114,18 @@ color: #214FA3;
 
 }
     td, tr {
-        font-family: 'League Spartan', sans-serif;
+font-family: 'League Spartan', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 22px;
-text-align:start;
+padding: 1%;
+left:30px;
+
 
 color: #3F619F;
 
         border: 1px solid;
     }
 
-  
+   
