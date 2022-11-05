@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    width: 216vh;
+    height: 8vh;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+#logocuida {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 32px;
+    width: 240;
+}
+
+.navbotao{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #3F619F;
+
+    display: flex;
+    margin-top: 35px;
+
+}
+
+.linkicon{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#menulateral{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    
+
+    background-color: rgba(63, 97, 159, 0.2);
+    width: 27vh;
+    height: 92vh;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+}
+
+#imgbemvindo{
+    display: flex;
+    margin-left: 80px;
+    height: 92vh;
+    width: 150vh;
+    margin: none;
+}
+
+.navbotao::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+}
+
+.icons{
+    padding-top: 25px;
+}
+
+.texto {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 65px;
+}
+
+.container {
+    margin-top: 80px;
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt1 {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #214FA3;;
+}
+
+.txt2 {
+    margin-top: 45px;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 560;
+    font-size: 30px;
+    color: #214FA3;
+
+}
+
+.opçao {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 770px;
+}
+
+.button {
+    width: 170px;
+    cursor: pointer;
+    background: rgba(63, 97, 159, 0.1);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius:  5px;
+    border: rgba(63, 97, 159, 0.1);
+}
+
+.button:hover {
+    background-color: #ffffff;
+    transition: 0.7s;
+}
