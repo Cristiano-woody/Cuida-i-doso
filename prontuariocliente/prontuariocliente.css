@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 1.1rem;
+
+}
+
+
+
+header{
+    width: 216vh;
+    height: 8vh;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+#logocuida {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 32px;
+    width: 240;
+}
+
+.navbotao{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #3F619F;
+
+    display: flex;
+    margin-top: 35px;
+
+}
+
+.linkicon{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#menulateral{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    
+
+    background-color: rgba(63, 97, 159, 0.2);
+    width: 27vh;
+    height: 92vh;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+}
+
+
+
+.navbotao::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+}
+
+.icons{
+    padding-top: 25px;
+}
+
+.container {
+    width: 190vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #214FA3;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.bloco {
+    box-sizing: border-box;
+    width: 1100px;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid rgba(63, 97, 159, 0.8);
+    border-radius: 5px;
+}
+
+.linha {
+   width: 1100px;
+   height: 0px;
+   margin-top: 6px;
+   border: 1px solid rgba(63, 97, 159, 0.8);
+}
+
+.subtitulo {
+    margin-top: 12px;
+    margin-left: 20px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #3F619F;
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 23px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #3F619F;
+}
+
+.espaço {
+    margin-left: 70px;
+}
+
+
+.texto2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 38px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #3F619F;
+}
+
+
+
+
+
+
