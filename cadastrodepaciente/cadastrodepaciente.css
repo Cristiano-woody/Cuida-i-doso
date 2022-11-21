@@ -1,0 +1,218 @@
+header{
+    width: 216vh;
+    height: 8vh;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+#logocuida {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 32px;
+    width: 240;
+}
+
+.navbotao{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #3F619F;
+
+    display: flex;
+    margin-top: 35px;
+
+}
+
+.linkicon{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#menulateral{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    
+
+    background-color: rgba(63, 97, 159, 0.2);
+    width: 27vh;
+    height: 92vh;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+}
+
+
+
+.navbotao::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+}
+
+.icons{
+    padding-top: 25px;
+}
+
+.imgpaciente{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0%;
+    margin-top: -20px;
+    margin-left: 3%;
+    
+
+}
+
+#container{
+    
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+h1{
+    display: flex;
+    justify-content:center;
+    font-family: 'League Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #214FA3;
+    
+}
+
+.dadospessoaispac{
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:flex-start ;
+    flex-wrap: wrap;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+
+text-align: center;
+
+color: #3F619F;
+    
+    
+    gap: 40px 150px;
+
+}
+
+.subtitulo{
+display: flex;
+justify-content: flex-start;
+font-family: 'League Spartan', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 28px;
+text-align: center;
+color: #214FA3;
+}
+
+#dadosdoencas{
+    display: flex;
+    
+    font-family: 'League Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #3F619F;
+    
+    
+    
+    
+}
+
+.dadosdoencas{
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+
+
+
+}
+
+.funcionarioresponsavel{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.dadosresponsavel{
+    margin-top: 24px;
+   
+
+    display: flex;
+    justify-content:flex-start ;
+    flex-wrap: wrap;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+
+
+
+color: #3F619F;
+    
+    
+    gap: 40px 150px;
+}
+
+span{
+    color: black;
+    font-size: 15px;
+}
+
+.botao{
+    
+   
+    width: 180px;
+    height: 40px;
+    left: 678px;
+    top: 671px;
+    border-color: #5992FF;
+    background: #5992FF;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+
+
+    text-align: center;
+
+color: #FFFFFF;
+}
+
