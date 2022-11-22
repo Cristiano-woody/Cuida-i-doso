@@ -78,10 +78,12 @@ main{
 #container{
     
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -103,13 +105,14 @@ h1{
     padding: 15px;
     margin-top: 20px;
     display: flex;
-    justify-content:flex-start ;
+    gap: 20px;
     flex-wrap: wrap;
-    font-family: 'League Spartan';
+    font-family: 'League Spartan',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+    
 
 
 text-align: center;
@@ -117,9 +120,15 @@ text-align: center;
 color: #3F619F;
     
     
-    gap: 40px 150px;
+    
 
 }
+.dados02{
+    display: flex;
+    margin-top:30px;
+    gap :20px;
+}
+
 
 .subtitulo{
 display: flex;
@@ -167,35 +176,33 @@ gap: 20px;
 }
 
 .dadosresponsavel{
-    margin-top: 24px;
    
-
+    margin-top: 20px;
     display: flex;
-    justify-content:flex-start ;
+    gap: 20px;
     flex-wrap: wrap;
-    font-family: 'League Spartan';
+    font-family: 'League Spartan',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+    
 
 
-
+text-align: center;
 
 color: #3F619F;
     
-    
-    gap: 40px 150px;
+
 }
 
-span{
-    color: black;
-    font-size: 15px;
-}
+
+
+
 
 .botao{
     
-   
+   margin-left: 150px;
     width: 180px;
     height: 40px;
     left: 678px;
@@ -204,7 +211,7 @@ span{
     background: #5992FF;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
-    font-family: 'League Spartan';
+    font-family: 'League Spartan',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -214,5 +221,9 @@ span{
     text-align: center;
 
 color: #FFFFFF;
+}
+
+.rgg{
+    margin-left: 80px;
 }
 

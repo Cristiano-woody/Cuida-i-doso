@@ -73,10 +73,10 @@ main{
 
 .container{
   margin-left: 5% ;
-  height: 100%;
-  width: 100%;
+  
     display: flex;
-    gap: 35px ;
+   
+    gap: 6% ;
     flex-direction: column;
     
 }
@@ -100,13 +100,13 @@ main{
 .dados{
     display: flex;
     flex-direction: row;
-    
+    justify-content: start;
     font-family: 'League Spartan',sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 22px;
-gap: 20%;
+gap: 5px;
 
 
 text-align: center;
@@ -137,7 +137,7 @@ color: #3F619F;
     display: flex;
     gap: 6%;
     
-    font-family: 'League Spartan';
+    font-family: 'League Spartan',sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -153,7 +153,7 @@ color: #3F619F;
 .especializacao{
     display: flex;
     justify-content: flex-start;
-    font-family: 'League Spartan';
+    font-family: 'League Spartan',sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -185,8 +185,9 @@ color: #3F619F;
 
 .dadoscontato{
     display: flex;
+    justify-content: start;
     flex-direction: row;
-    gap: 20%;
+    gap: 10px;
     font-family: 'League Spartan',sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -200,10 +201,11 @@ color: #3F619F;
     color: #3F619F;
 }
 
+
 .dadoscontatocelular{
     display: flex;
     flex-direction: row;
-    gap: 20%;
+    gap: 5px;
     font-family: 'League Spartan',sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -224,9 +226,10 @@ span{
 }
 
 
+
 .botao{
     
-    margin-left:43%;
+    margin-left:40%;
     width: 180px;
     height: 40px;
     left: 678px;
@@ -235,7 +238,7 @@ span{
     background: #5992FF;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
-    font-family: 'League Spartan';
+    font-family: 'League Spartan',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -248,7 +251,7 @@ color: #FFFFFF;
 }
 
 input,select{
-   color: #5992FF;
+   color: #000000;
 
 }
 

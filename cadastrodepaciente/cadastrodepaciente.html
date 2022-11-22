@@ -43,11 +43,17 @@
                 <div class="imgpaciente"><img src="../assets/usuario.png" alt="">
                     <div id="dadospessoaispaciente">
                     <div class="dadospessoaispac">
-                        <p>NOME COMPLETO:<span>(__________________)</span></p> 
-                        <p>CPF:<span>(__________________)</span></p> 
+                        <label for="nome">Nome Completo:</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf">
+                    <div class="dados02">
 
-                        <p>DATA DE NASCIMENTO:<span>(__________________)</span></p>
-                        <p>RG:<span>(__________________)</span></p> 
+                    <label for="dataNasc">Data de Nascimento:</label>
+                    <input type="date" name="dataNasc" id="dataNasc" required>
+                        <label for="rg">RG:</label>
+                    <input type="text" name="rg" id="rg">
+                    </div>
                     </div>
                 </div>
 
@@ -58,29 +64,53 @@
                 <div id="dadosdoencas">
                     <div class="dadosdoencas">
                         
-                        <p>Possui alguma doença crônica?<span> [ ]SIM &nbsp; [ ]NÃO  &nbsp; Se sim, Qual?_________________</span></p>
+                        <div class="doencacronicainput">
+                            <label for="doencacronica">Possui alguma doença crônica?</label>
+                            <input type="checkbox" value="sim">SIm</input>
+                            <input type="checkbox" value="não">Não</input>
+                            <label for="simcronica">Se sim, qual?</label>
+                            <input type="text" name="simcronica" id="simcronica">
+                        </div>
                         
-                        <p>Possui alguma deficiência? <span>[ ]SIM &nbsp; [ ]NÃO  &nbsp; Se sim, Qual?_________________</span></p>
+                        <div class="doencacronicainput">
+                            <label for="doencacronica">Possui alguma deficiência?</label>
+                            <input type="checkbox" value="sim">SIm</input>
+                            <input type="checkbox" value="não">Não</input>
+                            <label for="simcronica">Se sim, qual?</label>
+                            <input type="text" name="simcronica" id="simcronica">
+                        </div>
                         
-                        <p>Possui alguma alergia? <span>[ ]SIM &nbsp; [ ]NÃO  &nbsp; Se sim, Qual?_________________</span></p>
+                        <div class="doencacronicainput">
+                            <label for="doencacronica">Possui alguma Alergia?</label>
+                            <input type="checkbox" value="sim">SIm</input>
+                            <input type="checkbox" value="não">Não</input>
+                            <label for="simcronica">Se sim, qual?</label>
+                            <input type="text" name="simcronica" id="simcronica">
+                        </div>
                         
                     </div>
 
                     <div class="funcionarioresponsavel">
 
-                    <p>Funcionário Responsavel:<span>(__________________)</span></p>
+                    <label for="funcionario">funcionário Responável:</label>
+                    <input type="text" name="funcionario" id="funcionario">
                 </div>
                 </div>
                     <div id="dadosresponsavel">
                         <p class="subtitulo">Dados do Responsável</p>
                       <div class="dadosresponsavel">
-                        <p>NOME COMPLETO:<span>(__________________)</span></p> 
-                        <p>CPF:<span>(__________________)</span></p>
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" name="nome" id="nome">
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="cpf" id="cpf">
+                        <div class="dadosresp02">
+    
+                        <label for="dataNasc">Data de Nascimento:</label>
+                        <input type="date" name="dataNasc" id="dataNasc" required>
+                            <label for="rg" class="rgg">RG:</label>
+                        <input type="text" name="rg" id="rg">
 
-                        <p>DATA DE NASCIMENTO:<span>(__________________)</span></p>          
-                        <p>RG:<span>(__________________)</span></p>
-
-                        <button class="botao">CADASTRAR</button>
+                        <button class="botao" value="submit">CADASTRAR</button>
 
                       </div>
                     </div>
